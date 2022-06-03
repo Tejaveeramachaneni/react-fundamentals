@@ -3,6 +3,7 @@ import Hello from './components/Hello';
 import Greet from './components/Greet';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import UserGreeting from './components/UserGreeting';
 import './App.css';
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
       {/* <Greet /> */}
       {/* <Greet name = "Diana" heroName = "wonderwoman" /> */}
       {/* <p>This is children props</p><Greet />  */}
-      <Message />
-      <Counter />
+      {/* <Message /> */}
+      {/* <Counter /> */}
+      <UserGreeting />
     </div>
   )
 }
