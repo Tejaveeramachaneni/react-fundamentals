@@ -9,6 +9,7 @@ import ClassClick from './components/ClassClick';
 import EventBinder from './components/EventBinder';
 import Form from './components/Form';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <ClassClick /> */}
       {/* <EventBinder /> */}
       {/* <Form /> */}
-      <PostList />
+      {/* <PostList /> */}
+      <PostForm />
     </div>
   )
 }
