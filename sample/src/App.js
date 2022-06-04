@@ -5,6 +5,8 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import UserGreeting from './components/UserGreeting';
 import './App.css';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <p>This is children props</p><Greet />  */}
       {/* <Message /> */}
       {/* <Counter /> */}
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+      <FunctionClick />
+      <ClassClick />
     </div>
   )
 }
