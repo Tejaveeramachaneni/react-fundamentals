@@ -5,9 +5,9 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import UserGreeting from './components/UserGreeting';
 import './App.css';
-import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBinder from './components/EventBinder';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
       {/* <Message /> */}
       {/* <Counter /> */}
       {/* <UserGreeting /> */}
-      {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
-      <EventBinder />
+      {/* <EventBinder /> */}
+      <Form />
     </div>
   )
 }
