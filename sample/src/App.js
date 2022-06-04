@@ -8,6 +8,7 @@ import './App.css';
 import ClassClick from './components/ClassClick';
 import EventBinder from './components/EventBinder';
 import Form from './components/Form';
+import PostList from './components/PostList';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <UserGreeting /> */}
       {/* <ClassClick /> */}
       {/* <EventBinder /> */}
-      <Form />
+      {/* <Form /> */}
+      <PostList />
     </div>
   )
 }
