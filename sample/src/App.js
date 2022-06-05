@@ -12,6 +12,7 @@ import PostList from './components/PostList';
 import PostForm from './components/PostForm';
 import HookCounter from './components/HookCounter';
 import HookCounter2 from './components/HookCounter2';
+import FocusInput from './components/FocusInput';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <PostList /> */}
       {/* <PostForm /> */}
       {/* <HookCounter /> */}
-      <HookCounter2 />
+      {/* <HookCounter2 /> */}
+      <FocusInput />
     </div>
   )
 }
