@@ -10,6 +10,8 @@ import EventBinder from './components/EventBinder';
 import Form from './components/Form';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
+import HookCounter from './components/HookCounter';
+import HookCounter2 from './components/HookCounter2';
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
       {/* <EventBinder /> */}
       {/* <Form /> */}
       {/* <PostList /> */}
-      <PostForm />
+      {/* <PostForm /> */}
+      {/* <HookCounter /> */}
+      <HookCounter2 />
     </div>
   )
 }
